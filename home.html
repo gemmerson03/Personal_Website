@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Home </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+
+    <button onclick="darkmode()" class="button" Id="icon" >Dark Mode</button>
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                <ul class="dropdown-content">
+                    <li><a href="digitalmedia.html">Digital Media</a></li>
+                    <li><a href="traditionalart.html">Traditional Art</a></li>
+                    <li><a href="digitalart.html">Digital Art</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+	<center>
+	<h1> Home </h1>
+	<hr>
+
+<a href="about.html">
+  <img src="media/aboutbox.jpg" alt="about" width="380" height="380" hspace="10px">
+</a>
+
+<a href="contact.html">
+  <img src="media/contactbox.jpg" alt="contact" width="380" height="380" hspace="10px">
+</a>
+
+<a href="portfolio.html">
+  <img src="media/portfoliobox.jpg" alt="portfolio" width="380" height="380" hspace="10px">
+</a>
+
+<script>
+function darkmode(x) {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> About </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+        <ul>
+
+    <button onclick="darkmode()" class="button" Id="icon" >Dark Mode</button>
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                <ul class="dropdown-content">
+                    <li><a href="digitalmedia.html">Digital Media</a></li>
+                    <li><a href="traditionalart.html">Traditional Art</a></li>
+                    <li><a href="digitalart.html">Digital Art</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+	<center>
+	<h1> About </h1>
+	<hr>
+
+    <div style="position: relative;">
+    <img src="media/selfimage.jpg" alt="selfimage" width="400" height="500" style="position: absolute; top: 10px; left: 150px;">
+</div>
+
+<div style="position: relative;">
+    <img src="media/lincoln.jpg" alt="lincoln" width="280" height="380" style="position: absolute; top: 130px; right: 140px;"> 
+</div>
+
+
+<p id="paragraph">Hello! My name is Grace Emmerson, and I’m an aspiring digital media creator looking to get into game design. I’m passionate about art and video games, and I want to get into 3D modeling. </p>
+
+<p id="lincolntext"> My cat Lincoln <3 </p>
+
+<script>
+function darkmode(x) {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+    }
+    
+</script>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Traditional Art</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+        <ul>
+       
+    <button onclick="darkmode()" class="button" Id="icon" >Dark Mode</button> 
+    
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                <ul class="dropdown-content">
+                    <li><a href="digitalmedia.html">Digital Media</a></li>
+                    <li><a href="traditionalart.html">Traditional Art</a></li>
+                    <li><a href="digitalart.html">Digital Art</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+	<center>
+	<h1> Traditional Art </h1>
+	<hr>
+
+	<h2> Line Project </h2>
+
+	<img src="media/lineproject.jpg" alt="lineproject" width="600" height="500" align: left>
+
+	<section class="projects" p>  Two cats are framed using the rule of thirds. Directional, vertical and implied lines are explored. Various shading techniques are applied, such as hatching, cross-hatching, scumbling and stippling. 
+	</section>
+
+	<h2> Value Project </h2>
+
+	<img src="media/valueproject.jpg" alt="valueproject" width="800" height="400" align: left>
+
+	<section class="projects" p> This project depicts value, space, and time using a snow sculpture of a gator. The range of values consists of high-key and low-key areas. Light and shadow contrast to create an illusion of volume and space. 
+	</section>
+
+<script>
+function darkmode(x) {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+    }
+</script>
+
+</center>
+</body>
+</html>

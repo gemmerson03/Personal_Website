@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Portfolio</title>
+    <link rel="stylesheet" id="cssfile" type="text/css" href="style.css"> 
+</head>
+<body>
+	<nav>
+        <ul>
+
+    <button onclick="darkmode()" class="button" Id="icon" >Dark Mode</button> 
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                <ul class="dropdown-content">
+                    <li><a href="digitalmedia.html">Digital Media</a></li>
+                    <li><a href="traditionalart.html">Traditional Art</a></li>
+                    <li><a href="digitalart.html">Digital Art</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+	<center>
+	<h1> Portfolio </h1>
+	<hr>
+
+	<a href="digitalmedia.html">
+<img src="media/digitalmediabox.jpg" alt="digitalmediabox" width="300" height="300" hspace="20px">
+	</a>
+
+	<a href="traditionalart.html">
+<img src="media/traditionalartbox.jpg" id="tradartbox"alt="traditionalartbox" width="300" height="300" hspace="20px">
+	</a>
+
+	<a href="digitalart.html">
+<img src="media/digitalartbox.jpg" alt="digitalartbox" width="300" height="300"hspace="20px">
+
+</a>
+
+<script>
+function darkmode(x) {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+    }
+</script>
+
+</center>
+</body>
+</html>

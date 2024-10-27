@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Digital Media </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+        <ul>
+
+    <button onclick="darkmode()" class="button" Id="icon" >Dark Mode</button> 
+    
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                <ul class="dropdown-content">
+                    <li><a href="digitalmedia.html">Digital Media</a></li>
+                    <li><a href="traditionalart.html">Traditional Art</a></li>
+                    <li><a href="digitalart.html">Digital Art</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+	<center>
+	<h1> Digital Media </h1>
+	<hr>
+
+	<h2> Photoshop </h2>
+
+	<img src="media/imagingproject.jpg" alt="imagingproject" width="550" height="400">
+
+	<section class="projects" p> For my Photoshop assignment, I sourced free-to-use images to create a new composition with dinosaurs. I edited these photos together with non-destructive editing using layer masks.
+	</section>
+
+
+	<h2> Stop-motion </h2>
+
+	<video width="550" height="400" align=left controls>
+		<source src="media/stopmotion.mp4" type="video/mp4">
+		Your browser does not support this video tag.
+	</video>
+
+	<section class="projects" p> My stop motion animation comprises around 250 photos centered on household objects. I planned out storyboards and then animated my images together in Photoshop. I adjusted speed and various edits in Premiere.
+	</section>
+
+<script>
+function darkmode(x) {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+    }
+</script>
+
+
+</center>
+</body>
+</html>

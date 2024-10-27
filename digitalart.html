@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Digital Art </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+        <ul>
+
+    <button onclick="darkmode()" class="button" >Dark Mode</button> 
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                <ul class="dropdown-content">
+                    <li><a href="digitalmedia.html">Digital Media</a></li>
+                    <li><a href="traditionalart.html">Traditional Art</a></li>
+                    <li><a href="digitalart.html">Digital Art</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+	<center>
+	<h1> Digital Art </h1>
+	<hr>
+
+	<h2> Shape Project </h2>
+
+	<img src="media/shapeproject.jpg" alt="shapeproject" width="350" height="500" align: left>
+
+	<section class="projects" p> This design uses black and white to balance positive and negative space. Compositional relationships between shapes are explored using Gestalt principles. 
+	</section>
+
+<script>
+function darkmode(x) {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+    }
+</script>
+
+</center>
+</body>
+</html>
